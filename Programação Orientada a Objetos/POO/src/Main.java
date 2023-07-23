@@ -32,14 +32,14 @@ public static void main(String[] args) {
 	T2.mostra();
 	T2.area();
 
-	/*Recebendo os valores através do metodo get*/
+	/*Recebendo os valores atravÃ©s do metodo get*/
 	
 	aux=T1.getArea();
 	System.out.println("Variavel que recebeu a area de T1: " +aux);
 	
 	System.out.print("\n");
 	
-	/*Criando uma nova instancia de retangulo, neste caso, não quadrado*/
+	/*Criando uma nova instancia de retangulo, neste caso, nÃ£o quadrado*/
 	System.out.println("------------------");
 	System.out.print("\n");
 	System.out.println("Classe Retangulo!");
@@ -54,7 +54,7 @@ public static void main(String[] args) {
 	R1.setAltura(4);
 	R1.setBase(4);
 	
-	/*Printando a verificação*/
+	/*Printando a verificaÃ§Ã£o*/
 	System.out.println("Depois de alterar os atributos");
 	R1.Dimensoes();
 	R1.Verifica_R();
@@ -75,7 +75,7 @@ public static void main(String[] args) {
 	
 	
 	
-	/*Professor, vou criar apenas uma instancia e ir randomizando o valor dos seus lados atraves do random e setando atraves do metodo get*/
+	//Criando apenas uma instancia e randomizando o valor dos seus lados atraves do random e setando atraves do metodo get*/
 	Quadrado Q2=new Quadrado();
 	System.out.print("\n");
 	System.out.println("10 Quadrados  com lados aleatorios");
@@ -101,7 +101,7 @@ public static void main(String[] args) {
 	System.out.print("\n");
 	
 	Contador C1 = new Contador(); /*Esse vai iniciar com 0 */
-	/*Fazendo algumas manipulações para demonstrar a funcionalidade dos metodos implantados*/
+	/*Fazendo algumas manipulaÃ§Ãµes para demonstrar a funcionalidade dos metodos implantados*/
 	C1.visualiza_Contador();
 	C1.incrementa1();
 	C1.visualiza_Contador();
@@ -120,7 +120,7 @@ public static void main(String[] args) {
 	Carro Carro1= new Carro("Fiat", "Uno", "ABC-1234", false, 50, 100);
 	
 	Carro1.ligar();
-	Carro1.ligar(); /*Só pra demonstrar que o metodo nao ira fazer nenhuma mudança pois o carro ja esta ligado*/
+	Carro1.ligar(); /*SÃ³ pra demonstrar que o metodo nao ira fazer nenhuma mudanÃ§a pois o carro ja esta ligado*/
 	Carro1.desligar();
 	Carro1.desligar(); /*Mesma ideia*/
 	Carro1.acelerar();
